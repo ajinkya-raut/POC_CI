@@ -1,5 +1,17 @@
-<apex:page >
+<apex:page standardcontroller="Campaign" extensions="Welcome">
+
+<style>
+.Heads
+{
+	font-size: large;
+    font-style: italic;
+}
+</style>
     <apex:outputText >
     	{!Now()}
+    </apex:outputText>
+    <br/><br/><br/>
+    <apex:outputText styleClass="Heads" >
+    	{!userName}
     </apex:outputText>
 </apex:page>

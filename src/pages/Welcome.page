@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:outputText >
+    	{!Now()}
+    </apex:outputText>
+</apex:page>

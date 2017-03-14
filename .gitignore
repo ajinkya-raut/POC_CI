@@ -1,0 +1,4 @@
+.project
+.settings/com.salesforce.ide.core.prefs
+salesforce.schema
+src/package.xml

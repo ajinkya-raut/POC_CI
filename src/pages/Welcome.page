@@ -5,7 +5,7 @@
     <br/><br/><br/>
     <apex:outputText>
         <span style="font-size: large; font-style: italic;" >
-    		{!userName}
+    		Hey Hi, {!userName}.
         </span>
     </apex:outputText>
 </apex:page>

@@ -1,11 +1,25 @@
 <apex:page standardcontroller="Campaign" extensions="Welcome">
+
+<script type="text/javascript">
+    var int = self.setInterval("clock()",1000);
+    function clock()
+    {
+        var dateToday =new Date();
+        var timeNow = dateToday.toLocaleTimeString();
+        document.getElementById("clock").innerHTML = "<B>" + timeNow + "</B>";
+    }
+</script>
+    
+<apex:image url="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ10O5Fi-TQJMwDNUH2bHhsPjaNBizQ5Az0b4Ma5FqYCdUfdJSnNA"  title="Jenkins TEST Continuous Integration" />
+    <br/><br/>
     <apex:outputText >
-    	{!Now()}
+        <div id="clock" style="font-size: medium; font-style: italic;" ></div>
     </apex:outputText>
+    
     <br/><br/><br/>
-    <apex:outputText>
-        <span style="font-size: large; font-style: italic;" >
-    		Hey Hi, {!userName}.
+    <apex:outputText >
+        <span style="font-size: xx-large; font-style: italic;" >
+    		{!userName}
         </span>
     </apex:outputText>
 </apex:page>

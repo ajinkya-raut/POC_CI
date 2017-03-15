@@ -10,7 +10,7 @@
     }
 </script>
     
-<apex:image url="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ10O5Fi-TQJMwDNUH2bHhsPjaNBizQ5Az0b4Ma5FqYCdUfdJSnNA"  title="Jenkins" />
+<apex:image url="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ10O5Fi-TQJMwDNUH2bHhsPjaNBizQ5Az0b4Ma5FqYCdUfdJSnNA"  title="Jenkins TEST Continuous Integration" />
     <br/><br/>
     <apex:outputText >
         <div id="clock" style="font-size: medium; font-style: italic;" ></div>

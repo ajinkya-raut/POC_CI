@@ -1,12 +1,11 @@
 <apex:page standardcontroller="Campaign" extensions="Welcome">
-
     <apex:outputText >
     	{!Now()}
     </apex:outputText>
     <br/><br/><br/>
-    <apex:outputText >
+    <apex:outputText>
         <span style="font-size: large; font-style: italic;" >
-    		Hello {!userName}.
+    		Hey Hi, {!userName}.
         </span>
     </apex:outputText>
 </apex:page>

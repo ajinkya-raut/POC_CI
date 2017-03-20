@@ -19,7 +19,7 @@
     <br/><br/><br/>
     <apex:outputText >
         <span style="font-size: xx-large; font-style: italic;" >
-    		Hello {!userName}
+    		Hello {!userName}, How are you.
         </span>
     </apex:outputText>
 </apex:page>

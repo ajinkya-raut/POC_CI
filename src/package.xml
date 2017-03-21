@@ -24,76 +24,80 @@
         <members>*</members>
         <name>CustomApplication</name>
     </types>
-    <types>  
-        <members>*</members>      
+    <types>
+        <members>*</members>
         <name>CustomField</name>
     </types>
-    <types>   
-        <members>*</members>       
+    <types>
+        <members>*</members>
         <name>CustomLabel</name>
     </types>
-    <types>    
-        <members>*</members>        
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
-    <types>    
-        <members>*</members>        
+    <types>
+        <members>*</members>
         <name>CustomTab</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>Document</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>EmailTemplate</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>FieldSet</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>Layout</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>ListView</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>PermissionSet</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>QuickAction</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>RecordType</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>ValidationRule</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>WebLink</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>WorkflowAlert</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>WorkflowFieldUpdate</name>
     </types>
-    <types>   
-        <members>*</members> 
+    <types>
+        <members>*</members>
         <name>WorkflowRule</name>
     </types>
     <version>38.0</version>
